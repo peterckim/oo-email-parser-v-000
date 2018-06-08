@@ -16,5 +16,3 @@ class EmailParser
     end.flatten.uniq
   end
 end
-
-test = EmailParser.new("avi@gmail.com peter@gmail.com").parse
